@@ -43,7 +43,7 @@ services:
   bareos-webui:
     image: barcus/bareos-webui:latest
     ports:
-      - 8080:9100
+      - 8080:80
     environment:
       - BAREOS_DIR_HOST=bareos-dir
       - PHP_FPM_HOST=php-fpm
